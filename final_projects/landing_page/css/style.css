@@ -1,0 +1,53 @@
+iframe{
+  margin: auto;
+}
+
+.container{
+  margin-top: 250px;
+}
+
+.fixed-top{
+  background-color: grey;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-3 {width: 25%;}
+  .col-6 {width: 50%;}
+}
+
+.left-float{
+  float: left;
+}
+
+.right-float{
+  float: right;
+}
+
+.main-content{
+  margin: 30px 0px;
+}
+
+#header{
+  margin-bottom: 200px;
+}
+
+.content-item{
+  position: relative;
+  height: 200px;
+}
+
+.content-item a{
+  position: absolute;
+  top: -200px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
